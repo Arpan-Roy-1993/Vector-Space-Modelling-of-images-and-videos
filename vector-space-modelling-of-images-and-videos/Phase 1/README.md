@@ -14,10 +14,6 @@ The project directory structure has the following directories:
 
 #### Execution Steps:
 ```
-Help: This describes how to use the command line interface
-Usage: python <command-line-interface> --help
-Example: python print_genre_vector.py --help
-
 Task 1:
 Files: extractinfo.py, calculatedistances.py
 

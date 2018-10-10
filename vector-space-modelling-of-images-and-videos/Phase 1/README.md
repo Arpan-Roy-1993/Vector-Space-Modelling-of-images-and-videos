@@ -1,7 +1,7 @@
 # Vector space modeling of images and video data - Phase 1
 
 #### Introduction:
-The tasks involve representing relationships between different entities of the data set. The data set  “B. Ionescu, A. Popescu, M. Lupu, A.L. Ginsca, H. Muller, Retrieving Diverse Social Images at MediaEval 2014: Challenge, Dataset and Evaluation, MediaEval Benchmarking Initiative for Multimedia Evaluation, vol. 1263, CEUR-WS.org, ISSN: 1613-0073, October 1617, Barcelona, Spain, 2014.” contains information pertaining to images and videos and users associated through text files.
+The tasks involve representing relationships between different entities of the data set given by “B. Ionescu, A. Popescu, M. Lupu, A.L. Ginsca, H. Muller, Retrieving Diverse Social Images at MediaEval 2014: Challenge, Dataset and Evaluation, MediaEval Benchmarking Initiative for Multimedia Evaluation, vol. 1263, CEUR-WS.org, ISSN: 1613-0073, October 1617, Barcelona, Spain, 2014.”. The data set contains information pertaining to images and videos and users associated through text files.
 
 #### Software requirements:
 Python 3.6 (64 bit) :: Anaconda 5.2 (64-bit) 

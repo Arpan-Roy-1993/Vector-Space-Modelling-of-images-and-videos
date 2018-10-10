@@ -1,14 +1,14 @@
-# Vector space modeling of MovieLens & IMDB movie data - Phase 1
+# Vector space modeling of images and video data - Phase 1
 
 #### Introduction:
-The tasks involve representing relationships between different entities of the data set. The data set contains information taken from MovieLens and IMDB, pertaining to movies, genres, actors, users and the tags associated by the user to the movies, provided through csv files.
+The tasks involve representing relationships between different entities of the data set. The data set  “B. Ionescu, A. Popescu, M. Lupu, A.L. Ginsca, H. Muller, Retrieving Diverse Social Images at MediaEval 2014: Challenge, Dataset and Evaluation, MediaEval Benchmarking Initiative for Multimedia Evaluation, vol. 1263, CEUR-WS.org, ISSN: 1613-0073, October 1617, Barcelona, Spain, 2014.” contains information pertaining to images and videos and users associated through text files.
 
 #### Software requirements:
-Python 2.7.13 :: Anaconda 4.4.0 (64-bit)
+Python 3.6 (64 bit) :: Anaconda 5.2 (64-bit) 
 
 #### Directory Structure:
 The project directory structure has the following directories:
-	1. "resources" - contains the csv files that constitute the data set. 
+	1. "resources" - contains the text files that constitute the data set. 
 	2. "scripts" - contains command line interface along with the other supporting scripts needed for the successful execution of the project.
 
 #### Execution Steps:
@@ -18,29 +18,25 @@ Usage: python <command-line-interface> --help
 Example: python print_genre_vector.py --help
 
 Task 1:
-Command line interface - print_actor_vector.py
-Usage: python print_actor_vector.py <actor_id> <model>
-Example: python print_actor_vector.py 579260 tf
+Files: extractinfo.py, calculatedistances.py
 
 Task 2:
-Command line interface - print_genre_vector.py
-Usage: python print_genre_vector.py <genre> <model>
-Example: python print_genre_vector.py Animation tf
+Files: extractinfoimage.py, calculatedistanceimage.py
 
 Task 3:
-Command line interface - print_user_vector.py
-Usage: python print_user_vector.py <user_id> <model>
-Example: python print_user_vector.py 109 tf
+Files: extractinfolocation.py, calculatedistancelocation.py
 
 Task 4:
-Command line interface - differentiate_genre.py
-Usage: differentiate_genre.py <genre1> <genre2> <model>
-Example: python differentiate_genre.py Children Thriller tf
+Files: extract and calculate task 4
+
+Task 5:
+Files: extract and calculate task 5
+
 ```
 
 #### Troubleshooting:
-1. The tag weight calculations are performed dynamically whenever the input is passed to the command line interface. Also, this project uses in-memory data frames (via python pandas library) for storage and retrieval. You may observe delay in the output of the command line interface based on the input. Please be patient.
-2. Please ensure the data set (csv files) have the same names and column descriptors as the sample data set for correct execution.
+1. The k most similar users/images/locations are performed dynamically whenever the input is asked from the user. Also, this project uses in-memory data frames (via python pandas library) for storage and retrieval. You may observe delay due to large amount of data being parsed at the interface based on the input. Please be patient.
+2. Please ensure the data set (text files) have the same names and column descriptors as the sample data set for correct execution.
 3. Ensure you are running the correct python interpreter. The correct interpreter will give the following output on the command line:
 	python --version
-	Python 2.7.13 :: Anaconda 4.4.0 (64-bit)
+	Python 3.6 (64 bit) :: Anaconda 5.2 (64-bit)

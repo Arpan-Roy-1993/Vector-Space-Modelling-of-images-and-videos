@@ -32,7 +32,7 @@ Files: extract and calculate task 5
 ```
 
 #### Troubleshooting:
-1. The k most similar users/images/locations are performed dynamically whenever the input is asked from the user. Also, this project uses in-memory data frames (via python pandas library) for storage and retrieval. You may observe delay due to large amount of data being parsed at the interface based on the input. Please be patient.
+1. The k most similar users/images/locations are displayed dynamically whenever the input is asked from the user. Also, this project uses in-memory data frames (via python pandas library) for storage and retrieval. You may observe delay due to large amount of data being parsed at the interface based on the input. Please be patient.
 2. Please ensure the data set (text files) have the same names and column descriptors as the sample data set for correct execution.
 3. Ensure you are running the correct python interpreter. The correct interpreter will give the following output on the command line:
 	python --version

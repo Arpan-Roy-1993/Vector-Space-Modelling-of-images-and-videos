@@ -9,7 +9,7 @@ Python 3.6 (64 bit) :: Anaconda 5.2 (64-bit)
 #### Directory Structure:
 The project directory structure has the following directories:
 	1. "resources" - contains the text files that constitute the data set. 
-	2. "scripts" - contains command line interface along with the other supporting scripts needed for the successful execution of the project.
+	2. "scripts" - contains supporting scripts needed for the successful execution of the project.
 
 #### Execution Steps:
 ```

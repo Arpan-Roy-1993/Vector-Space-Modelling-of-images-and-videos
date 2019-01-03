@@ -97,7 +97,7 @@ A) python task5a.py <L> <K>
 Creates LSH_index and LSH_bucket files which store the LSH index structure.
 
 B) python task5b.py <query imageID> <T>
-The output will be displayed on the webpage (http://127.0.0.1:5000/)
+The output will be displayed on the webpage (http://127.0.0.1:5000/) a
 Image IDs will also be displayed on the terminal along with the number of total unique candidates considered.
 ------------------------------------------------------------------------------------------------
 Task6:  

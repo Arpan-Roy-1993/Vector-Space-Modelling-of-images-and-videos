@@ -91,10 +91,17 @@ To run the python scripts for the seven tasks
 - Open command prompt and navigate to the location of the python scripts
 - Execute the following commands
         python task1.py - Runs the task one 
+	
         python task2.py - Runs the task two
+	
         python task3.py <k> <model> <reduction_algorithm> <imageid> - Runs the task three
+	
         python task4.py - Runs the task four
+	
         python task5.py - Runs the task five
+	
         python task6.py - Runs the task six
+	
         python create_tensor - Creates a tensor and stores it locally
+	
         python task7.py - Runs the task seven

@@ -82,16 +82,16 @@ Task2:  python task2.py
 Enter 1 for K means and 2 for spectral clustering
 Enter the value of k
 The output will be displayed on the webpage (http://127.0.0.1:5000/)
-------------------------------------------------------------------------------------------------
+
 Task3:  python task3.py 
 Enter the value of k
 The output will be displayed on the webpage (http://127.0.0.1:5000/)
-------------------------------------------------------------------------------------------------
+
 Task4:  python task4.py 
 Enter the image ids
 Enter the value of k
 The output will be displayed on the webpage (http://127.0.0.1:5000/)
-------------------------------------------------------------------------------------------------
+
 Task5:
 A) python task5a.py <L> <K>
 Creates LSH_index and LSH_bucket files which store the LSH index structure.

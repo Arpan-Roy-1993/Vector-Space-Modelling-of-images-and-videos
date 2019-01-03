@@ -63,7 +63,7 @@ Prepocessing of the given dataset and storing it in MongoDB
 - Extract 'desctxt', 'descvis' folders
 
 
-To store the data to mongodb, run the below python scripts
+To store the data to mongodb, run below python scripts
 ----------------------------------------------------------
 
 
